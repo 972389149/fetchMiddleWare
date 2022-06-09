@@ -1,0 +1,28 @@
+{
+  "name": "fetchmiddleware",
+  "version": "1.0.0",
+  "description": "fetch middleware",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c",
+    "test": "rollup -c",
+    "build": "rollup -c",
+    "watch": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/972389149/fetchMiddleWare.git"
+  },
+  "keywords": [
+    "fetch"
+  ],
+  "author": "yxchan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/972389149/fetchMiddleWare/issues"
+  },
+  "homepage": "https://github.com/972389149/fetchMiddleWare#readme",
+  "devDependencies": {
+    "rollup": "^2.75.6"
+  }
+}
