@@ -1,8 +1,9 @@
 {
-  "name": "@yxtest/fetchmiddleware",
+  "name": "yxtestmiddleware",
   "version": "1.0.0",
   "description": "fetch middleware",
-  "main": "dist/index.cjs.js",
+  "main": "./dist/bundle.cjs.js",
+  "module": "./dist/bundle.es.js",
   "scripts": {
     "dev": "rollup -c",
     "test": "rollup -c",
