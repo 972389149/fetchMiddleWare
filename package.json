@@ -2,7 +2,7 @@
   "name": "fetchmiddleware",
   "version": "1.0.0",
   "description": "fetch middleware",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
   "scripts": {
     "dev": "rollup -c",
     "test": "rollup -c",
@@ -23,6 +23,15 @@
   },
   "homepage": "https://github.com/972389149/fetchMiddleWare#readme",
   "devDependencies": {
-    "rollup": "^2.75.6"
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "rollup": "^2.75.6",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.3"
   }
 }
