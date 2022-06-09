@@ -1,6 +1,6 @@
 {
   "name": "yxtestmiddleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fetch middleware",
   "main": "./dist/bundle.cjs.js",
   "module": "./dist/bundle.es.js",
